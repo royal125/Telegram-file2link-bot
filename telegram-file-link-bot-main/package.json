@@ -1,0 +1,23 @@
+{
+  "name": "telegram-file-link-bot-main",
+  "version": "1.0.0",
+  "description": "A Python-based Telegram bot that converts uploaded files into streamable and downloadable links without storing files. Uses Telegram's CDN for direct access.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "dev": "nodemon main.js",
+     "start": "node main.js",
+     "build": "echo 'No build step required for plain Node.js projects'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "telegraf": "^4.16.3"
+  }
+}
